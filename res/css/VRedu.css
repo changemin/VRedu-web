@@ -38,11 +38,11 @@ html{
   margin-top: 20px;
 }
 .left-side > div{
-  box-shadow: 0px 0px 47px -15px rgba(0,0,0,0.75);
+  box-shadow: 0 0 8.5px 0 rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 .right-side > div{
-  box-shadow: 0px 0px 47px -15px rgba(0,0,0,0.75);
+  box-shadow: 0 0 8.5px 0 rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 .main-container > hr{
