@@ -6,7 +6,7 @@ body{
   height: 100%;
 }
 html{
-  background-image: url('/web/res/images/loading-background.png');
+  background-image: url('/res/images/loading-background.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
