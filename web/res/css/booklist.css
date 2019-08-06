@@ -1,0 +1,189 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  body{
+    height: 100%;
+    font-family: Noto Sans KR;
+  }
+  html{
+    background-image: url('/web/res/images/loading-background.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow-y: hidden; overflow-x: hidden;
+  }
+  #logo_white{
+      width: 75px;
+      position: absolute;
+      margin-top: 18px;
+      margin-left: 40px;
+  }
+  .subject{
+    width: 2040px;
+    height: 120px;
+    margin-left: 22px;
+    margin-top: 22px;
+    border-radius: 10px;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  #han{
+    position: absolute;
+    font-family: Noto Sans KR;
+    color: #7e4ff5;
+    font-size: 80px;
+    padding-top: 0px;
+    margin-left: 50px;
+    font-weight: bolder;
+  }
+  #kuksa{
+    position: absolute;
+    font-family: Noto Sans KR;
+    color: #7e4ff5;
+    font-size: 35px;
+    padding-top: 55px;
+    margin-left: 120px;
+    font-weight: bolder;
+  }
+  #hankuksa{
+    position: absolute;
+    font-family: Noto Sans KR;
+    font-weight: bolder;
+    color: #707070;
+    font-size: 20px;
+    padding-top: 30px;
+    margin-left: 250px;  
+  }
+  #text{
+    position: absolute;
+    font-family: Noto Sans KR;
+    color: #707070;
+    font-size: 20px;
+    padding-top: 65px;
+    margin-left: 250px; 
+  }
+  .vrlist{
+    position: absolute;
+    width: 2040px;
+    height: 833px;
+    margin-left: 22px;
+    margin-top: 22px;
+    border-radius: 10px;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  #booklist_title{
+      position: absolute;
+      color: #ffffff;
+      font-family: Noto Sans KR;
+      font-weight: bolder;
+      font-size: 70px;
+      margin-top: 0px;
+      margin-left: 135px;
+  }
+  .main-container{
+    position: absolute;
+    box-shadow: 5px 10px 42px -25px rgba(0,0,0,0.75);
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    opacity: 1;
+    visibility: visible;
+    height: 83%;
+    width: 95%;
+    margin-left: 40px;
+    margin-top: 120px;
+    text-align: left;
+  }
+  .num{
+    position: absolute;
+    font-family: Noto Sans KR;
+    color: #7e4ff5;
+    margin-left: 35px;
+    padding-top: 14px;
+    font-size: 34px;
+  }
+  .hrhr{
+    position: absolute;
+    width: 1990px;    
+    color: #f9f9f9;  
+    margin-top:80px;
+    margin-left: 25px;
+  }
+  .listTitle{
+      position: absolute;
+      padding-left: 70px;
+      font-family: Noto Sans KR;
+      font-weight: bolder;
+      font-size: 34px;
+      color: #7e4ff5;
+  }
+  #list1{
+      position: absolute;
+      padding-top:14.5px;
+  }
+  .where{
+      position: absolute;  
+      margin-top: 30px;
+      padding-left: 250px;
+      font-family: Noto Sans KR;
+  }
+  #youtube{
+      width:35px;
+      position: absolute;
+      margin-top:25px;
+      padding-left:1575px;
+  }
+  #heart{
+      width:35px;
+      position: absolute;
+      margin-top:25px;
+      padding-left: 1755px;
+  }
+  #youtubetext{
+      position: absolute;
+      margin-top:30px;
+      padding-left: 1620px;
+  }
+  #hearttext{      
+      position: absolute;
+      margin-top:30px;
+      padding-left: 1800px; 
+  }
+  .view
+  {
+      position: absolute;
+      padding-left: 1945px;
+      font-weight: 900;
+      font-size: 25px;
+      margin-top: 22px;
+      color: #7e4ff5;
+  }
+  #menu1{
+    margin-top: 15px;
+  }
+  #menu2{
+    margin-top: 105px;
+  }
+  #menu3{
+    margin-top: 195px;
+  }
+  #menu4{
+    margin-top: 285px;
+  }
+  #menu5{
+    margin-top: 375px;
+  }
+  #menu6{
+    margin-top: 465px;
+  }
+  #menu7{
+    margin-top: 555px;
+  }
+  #menu8{
+    margin-top: 645px;
+  }
+  #menu9{
+    margin-top: 735px;
+  }

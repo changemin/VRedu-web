@@ -1,0 +1,61 @@
+*{
+    font-family: 'Apple SD Gothic Neo','Malgun Gothic',arial,sans-serif;
+  }
+  body{
+    height: 100%;
+  }
+  .title-img{
+    width: 3%;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  html{
+    background-image: url('/web/res/images/loading-background.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .book_title{
+      color: #ffffff;
+      font-size: 60px;
+      margin-top: 18px;
+  }
+  .main-container{
+    box-shadow: 5px 10px 42px -25px rgba(0,0,0,0.75);
+    background-color: #f9f9f9;
+    border-radius: 30px;
+    height: 83%;
+    width: 95%;
+    margin:auto;
+    margin-top: 15px;
+    text-align: left;
+    font-size: 10px;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+  .subject{
+    padding-top: 20px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    height: 100px;
+    background: #fFF;
+    box-shadow: 5px 10px 42px -25px rgba(0,0,0,0.75);
+    font-size: 40px;
+    border-radius: 20px;
+    width: 96%;
+    margin-left: 10px;
+  }
+  .subject:hover{
+    box-shadow: 0px 5px 56px -25px rgba(0,0,0,0.75);
+  }
+  .subject-name{
+      font-size: 60px;
+      font-weight: bold;
+      color:#7e4ff5;
+  }
+  

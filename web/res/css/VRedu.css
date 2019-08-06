@@ -1,0 +1,153 @@
+*{
+  text-align: center;
+  font-family: 'Apple SD Gothic Neo','Malgun Gothic',arial,sans-serif;
+}
+body{
+  height: 100%;
+}
+html{
+  background-image: url('/web/res/images/loading-background.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  overflow-y: hidden; overflow-x: hidden;
+}
+.loading-img{ /*3초 뒤 사라지는 로고*/
+  position: absolute;
+  margin-top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  animation-delay: 3s;
+  visibility: collapse;
+  animation-fill-mode: forwards;
+  animation: fadeOut 3s;
+}
+@keyframes fadeOut{
+  from{opacity: 1;visibility: visible;}
+  to{opacity: 0;visibility: collapse;}
+}
+@keyframes fadeIn{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+.logo{
+  width: 4%;
+  margin-top: 20px;
+}
+.left-side > div{
+  box-shadow: 0px 0px 47px -15px rgba(0,0,0,0.75);
+  border-radius: 10px;
+}
+.right-side > div{
+  box-shadow: 0px 0px 47px -15px rgba(0,0,0,0.75);
+  border-radius: 10px;
+}
+.main-container > hr{
+  box-shadow: 0 10px 10px -10px #8c8c8c inset;
+}
+.VRedu-book > img{
+  width: 20%;
+  margin-bottom: 30px;
+}
+.left-side > div{
+  background-color: #fff;
+}
+.right-side > {
+  background-color: #fff;
+}
+.main-container{
+  box-shadow: 5px 10px 42px -25px rgba(0,0,0,0.75);
+  background-color: #fff;
+  border-radius: 10px;
+  opacity: 1;
+  visibility: visible;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  animation: fadeIn 4s;
+  height: 90%;
+  width: 95%;
+  margin:auto;
+  margin-top: 50px;
+  text-align: center;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  letter-spacing: 5px;
+  font-size: 40px;
+  font-family: 'Jua';
+}
+.left-side{
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.left-side > div{
+  width: 90%;
+  margin-top: 80px;
+}
+.right-side{
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+.VRedu-book{
+  padding-top: 40px;
+  padding-bottom: 70px;
+  margin: auto;
+  margin-top: 50px;
+  height: 20%;
+  width: 45%;
+  float: bottom;
+}
+.VRedu-book:hover{
+  box-shadow: 5px 10px 60px -25px rgba(0,0,0,0.75);
+}
+.community{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: auto;
+  height: auto;
+  width: 45%;
+}
+.community:hover{
+  box-shadow: 5px 10px 60px -25px rgba(0,0,0,0.75);
+}
+.upload{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 50px;
+  margin: auto;
+  height: auto;
+  width: 45%;
+}
+.upload:hover{
+  box-shadow: 5px 10px 60px -25px rgba(0,0,0,0.75);
+}
+.bestVRedu{
+  text-align: left;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: auto;
+  margin-top: 80px;
+  width: 90%;
+  height: 63%;
+}
+.bestVRedu:hover{
+  box-shadow: 5px 10px 60px -25px rgba(0,0,0,0.75);
+}
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+}
+footer > p {
+  letter-spacing: 1px;
+  font-size: 20px;
+}
