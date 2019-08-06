@@ -130,8 +130,8 @@ p {
 .bestVRedu{
   text-align: left;
   margin: auto;
-  margin-top: 60px;
-  height: 70%;
+  margin-top: 75px;
+  height: 60%;
 }
 .bestVRedu:hover{
   box-shadow: 5px 10px 60px -25px rgba(0,0,0,0.75);
